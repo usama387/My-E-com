@@ -1,5 +1,5 @@
 {
-  "name": "orebi-ecom",
+  "name": "orebi-e-com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,19 +9,39 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.29.7",
+    "@portabletext/react": "^3.0.11",
+    "@reduxjs/toolkit": "^2.1.0",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.23.4",
+    "@stripe/stripe-js": "^2.4.0",
+    "@types/react-slick": "^0.23.13",
+    "framer-motion": "^11.0.3",
+    "next": "14.0.4",
+    "next-auth": "^4.24.5",
+    "next-sanity": "^7.0.7",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.12.0",
+    "react-redux": "^9.1.0",
+    "react-slick": "^0.29.0",
+    "redux-persist": "^6.0.0",
+    "sanity": "^3.23.4",
+    "slick-carousel": "^1.8.1",
+    "stripe": "^14.16.0",
+    "styled-components": "^5.3.9"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@sanity/eslint-config-studio": "^3.0.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "typescript": "^5"
   }
 }
