@@ -6,7 +6,7 @@ import PageButton from "@/components/PageButton";
 import Footer from "@/components/Footer";
 import Layout from "@/components/Layout";
 import { Josefin_Sans } from "next/font/google";
-import { products } from "@/lib/sanityClient";
+
 
 export const metadata: Metadata = {
   title: "E-COM",
